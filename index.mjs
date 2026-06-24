@@ -22,7 +22,7 @@ app.get('/', (req, res) => {
 });
 
 // listen for requests :)
-const listener = app.listen(process.env.PORT || 443, () => {
+const listener = app.listen(process.env.PORT || 3000, () => {
   console.log("Your app is listening on port " + listener.address().port);
 });
 
