@@ -1,6 +1,8 @@
 # sg-sste
 
-Ste's simple templating engine
+Ste's Simple Templating Engine
+
+Blog post: <https://stegriff.co.uk/upblog/why-i-made-an-express-template-engine/>
 
 ## Tech
 
