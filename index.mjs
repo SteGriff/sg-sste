@@ -21,6 +21,13 @@ app.get('/', (req, res) => {
     res.render('index');
 });
 
+app.get('/withData', (req, res) => {
+    res.render(
+      'data', 
+      { landscape: "grassy", swamps: "shallow", water: "harmful" }
+    );
+});
+
 // listen for requests :)
 const listener = app.listen(process.env.PORT || 3000, () => {
   console.log("Your app is listening on port " + listener.address().port);
